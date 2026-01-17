@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
 public static void main(String[] args) {
     System.out.println("Bienvenido(a) a Screen Match");
@@ -11,5 +10,15 @@ public static void main(String[] args) {
 
     double media = (8.2 + 6.0 + 9.0) / 3;
     System.out.println(media);
+
+    String sinopsis = """
+            Matrix es una paradoja
+            la mejor película del fin del milenio.
+            Fue lanzada en:
+            """ + fechaDeLanzamiento;
+    System.out.println(sinopsis);
+
+    int clasificacion = (int) (media / 2);
+    System.out.println(clasificacion);
 }
 }
